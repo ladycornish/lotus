@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,500&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap');
+
+:root {
+    --light-pink-col: #fae1dd;
+    --grey-text-col: #6c757d;
+    --dark-grey-text: #495057;
+    --light-green: #dde7c7;
+}
+
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus,
+.dropdown-item:active
+ {
+    background-color: var(--light-green);
+}
+
+.brand-name {
+
+    color:var(--dark-grey-text) !important;
+}
+
+.main-sec {
+    padding: 40px 0 40px 0;
+    position: relative;
+    padding-bottom: 20px;
+    overflow-x: hidden;
+}
+
+.main-sec div[class*="col"] {
+    position: relative;
+}
+
+.main-sec .lotus-1 {
+    position: absolute;
+    top: 80px;
+    left:-100px;
+    width: 45vw;
+    opacity: .3;
+    transform: rotate(-30deg);
+}
+
+.main-sec .lotus-2 {
+    position: absolute;
+    top: 360px;
+    right:-100px;
+    width:45vw;
+    opacity: .3;
+    transform: rotate(30deg);
+}
+
+.main-title {
+    color: var(--dark-grey-text);
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+}
+
+.book-app-img {
+    position: relative;
+}
+
+.main-img {
+    border-top-right-radius: 40%;;
+}
+
+.text-over-img {
+    color: var(--dark-grey-text);
+    position: absolute;
+    top:40%;
+    left: 40%;
+    border-width: 6px;
+    border-color: white;
+    border-style: double;
+    padding: 1rem;
+    z-index: 50;
+}
+
+/* Special Offer Section */
+
+.offer-container {
+    padding: 60px 20px 60px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.offer-container div[class*="col"] {
+    position: relative;
+}
+
+.offer-container .lotus-3 {
+    position: absolute;
+    top: 180px;
+    left:-80px;
+    width: 45vw;
+    opacity: .3;
+    transform: rotate(-60deg);
+}
+
+.section-title {
+    color: var(--dark-grey-text);
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.offer-header {
+    background-color: #E7E7DD;
+    color: var(--dark-grey-text);
+}
+
+.offer-btn {
+    background-color: #92A998;
+}
+
+.offer-btn:hover, .offer-btn:focus {
+    background-color: #CDCAAB;
+}
+
+.offer-date {
+    font-size: .8rem;
+}
+
+/* Services Container */
+
+.services-container {
+    position: relative;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.serives-container div[class*="col"] {
+    position: relative;
+}
+
+.services-container .lotus-4 {
+    position: absolute;
+    top: 80px;
+    left:-100px;
+    width: 45vw;
+    opacity: .3;
+    transform: rotate(-30deg);
+}
+
+.services-container .lotus-5 {
+    position: absolute;
+    top: 360px;
+    right:-100px;
+    width: 45vw;
+    opacity: .3;
+    transform: rotate(30deg);
+}
+
+/* Testimonials */
+
+.test-section {
+    margin: 20px 0 20px 0;
+}
+
+.quote {
+    padding: 20px 0 0 0;
+}
+
+/* Footer */
+
+.footer-title {
+    font-size: 1rem;
+}
+
+.times {
+    font-size: .7rem;
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+.times-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--dark-grey-text);
+}
+.times-link:hover {
+    color: #fff;
+}
+.copy-text {
+    font-size: .5rem;
+}
+
+/* Services Page */
+
+.services-container {
+    position: relative;
+}
+
+.services-title {
+    position: absolute;
+    top: 35vw;
+    left: 50%;
+    z-index:20;
+}
+
+.services-img {
+    z-index:10;
+    padding-bottom: 100px;
+}
+
+.main-sec .lotus-6 {
+    position: absolute;
+    top: 860px;
+    left: -120;
+    width: 45vw;
+    opacity: .3;
+    transform: rotate(-30deg);
+}
+
+.main-sec .lotus-7 {
+    position: absolute;
+    top: 1260px;
+    right: -100px;
+    width: 45vw;
+    opacity: .3;
+    transform: rotate(30deg);
+}
+/* To override the accordian background color */
+ #btn1 {
+    background-color: var(--light-green) !important;
+    color: var(--dark-grey-text) !important; 
+    
+ }
+ #btn2 {
+    background-color: var(--light-green) !important;
+    color: var(--dark-grey-text) !important; 
+ }
+ #btn3 {
+    background-color: var(--light-green) !important;
+    color: var(--dark-grey-text) !important; 
+ }
+ 
+
+/* Contact Page */
+
+.social-box {
+    background: #E7E7DD;
+    opacity: .5;
+}
+
+.social-card {
+    border: 2px solid #92A998;
+    border-radius: 5px;
+}
+
+.social-card a {
+    color: #4D4924;
+}
+
+.social-title {
+    font-size: 1rem;
+}
+
+.social-icon {
+    color: #92A998;
+    font-size: 1.8rem;
+}
+
+.social-link {
+    font-size: .8rem;
+}
+
+
